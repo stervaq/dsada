@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'maven'
+    id 'kotlin-android-extensions'
 }
 repositories {
     google()
@@ -50,6 +51,7 @@ dependencies {
    // implementation files('libs/ksoap2-android-3.6.4.jar')
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation files('libs/AndroidSOAP-lib-0.0.5.jar')
+    implementation files('libs/ksoap2-android-3.6.4.jar')
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
